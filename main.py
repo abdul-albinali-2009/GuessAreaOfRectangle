@@ -10,6 +10,6 @@ userArea = float(input("Guess the Area for the rectangle! "))
 computerArea = length * width
 #boolean expression for the guess
 if userArea == computerArea:
-  print("You got it righ! Good Job")
+  print("You got it right! Good Job It was", computerArea)
 else:
-  print("You got it wrong, try again")
+  print("You got it wrong, the area was", computerArea)
