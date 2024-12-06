@@ -8,6 +8,7 @@ width = float(input("What is the width of the rectangle? "))
 userArea = float(input("Guess the Area for the rectangle! "))
 #computer calcs area
 computerArea = length * width
+#boolean expression for the guess
 if userArea == computerArea:
   print("You got it righ! Good Job")
 else:
